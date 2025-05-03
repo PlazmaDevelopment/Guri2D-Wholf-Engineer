@@ -1,0 +1,41 @@
+// Kanvas oluşturma
+fegn Guri2D {
+    createCanvas: (800, 600) => {
+        Console.log("Kanvas oluşturuldu")
+    }
+}
+
+// Kanvas yükleme
+fegn Guri2D {
+    loadCanvas: () => {
+        Console.log("Kanvas yüklendi")
+    }
+}
+
+// Fizik nesnesi ekle
+fegn Guri2D {
+    addPhysicsObject: (object) => {
+        Console.log("Fizik nesnesi eklendi")
+    }
+}
+
+// Ses ekle
+fegn Guri2D {
+    addSound: ("music", "music.mp3") => {
+        Console.log("Ses eklendi")
+    }
+}
+
+// Tuş olayları
+fegn Guri2D {
+    onKeyDown: (key, callback) => {
+        Console.log("Tuş basıldı: " + key)
+    }
+}
+
+// Fare olayları
+fegn Guri2D {
+    onMouseMove: (callback) => {
+        Console.log("Fare hareket etti")
+    }
+}
